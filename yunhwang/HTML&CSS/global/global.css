@@ -3,3 +3,29 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root{
+    /* primary color - logo button*/
+    --pr-color: #7773F0;
+    /* secondary color - unselect */
+    --sn-color: #C1AEFC;
+    /* tertiary - checkbox bg */
+    --th-color: #D7CAFD;
+    /* background dashboard */
+    --db-color: #F6F8FC;
+    /* white */
+    --white-color: #FFFFFF;
+    /* success - success font */
+    --ss-color: #72BDA5;
+    /* success - success bg */
+    --ssbg-color: #D8F3E8;
+    /* warning - unfinish bg*/
+    --wn-color: #C2AA5F;
+    /* warning - unfinish */
+    --wgbg-color: #FCF0C4;
+    /* danger - fail font*/
+    --dg-color: #D14A5E;
+     /* danger - fail bg*/
+    --dgbg-color: #FDEDF0;
+    --box-shadow: 10px 10px 10px rgba(0 , 0, 0, 0.1);
+}
