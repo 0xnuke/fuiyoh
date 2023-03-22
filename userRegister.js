@@ -13,18 +13,19 @@ class userRegister {
 
 
     get userProfile() {
-        return `${this._fName} \n${this._lName} \n${this._email} \n${this._weight} \n${this._height} \n${this._gender} \n${this._birthdate} `;
+        return `
+            First Name: ${this._fName} 
+            Last Name: ${this._lName} 
+            Email: ${this._email} 
+            Weight: ${this._weight} 
+            Height: ${this._height} 
+            Gender: ${this._gender} 
+            Birthdate: ${this._birthdate} 
+        `;
     }
 
 
 }
-
-
-
-
-
-
-
 
 
 const nuk = new userRegister('inw49','god teir','nukinwze@gen.com','1234',50,200,'male','120343');
