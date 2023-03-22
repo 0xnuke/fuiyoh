@@ -1,4 +1,4 @@
-class userRegister {
+class UserRegister {
     constructor(fName,lName,email,password,weight,height,gender,birthdate){
         this._fName = fName;
         this._lName = lName;
